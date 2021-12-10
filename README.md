@@ -23,10 +23,12 @@ git clone https://github.com/slomkowski/bash-full-of-colors.git .bash-full-of-co
 [ -f .bash_profile ] && mv -v .bash_profile bash_profile.old
 [ -f .bash_aliases ] && mv -v .bash_aliases bash_aliases.old
 [ -f .bash_logout ] && mv -v .bash_logout bash_logout.old
+[ -f .vimrc ] && mv -v .vimrc vimrc.old
 ln -s .bash-full-of-colors/bashrc.sh .bashrc
 ln -s .bash-full-of-colors/bash_profile.sh .bash_profile
 ln -s .bash-full-of-colors/bash_aliases.sh .bash_aliases
 ln -s .bash-full-of-colors/bash_logout.sh .bash_logout
+ln -s .bash-full-of-colos/vimrc .vimrc
 ```
 
 
